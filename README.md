@@ -43,8 +43,11 @@ Pessoa::MostrarPessoa(){
     cout<<"Renda: "<<renda<<endl;
 }
 int main() {
-    MostrarPessoa();
+    int main() {
+    Pessoa pessoa=Pessoa("Carlos", 22, 756774, 1876,86);
+    Pessoa.MostrarPessoa();
+    
     getch();
-
     return 0;
 }
+
