@@ -26,7 +26,8 @@ Dados::MostrarDados(void){
     cout<<"Nome: "<<nome<<endl;
     cout<<"Idade: "<<idade<endl;
 }
-class Pessoa:public Dados{
+class Pessoa:
+public Dados{
     private:
     double renda;
     public:
